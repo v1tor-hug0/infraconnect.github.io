@@ -10,8 +10,7 @@
 }
 
 #ativo {
-    background-color: gray;
-    color: white;
+    border-bottom: solid 1px black;
 }
 
 .logo-pequena{
@@ -24,22 +23,20 @@
     align-items: center;
     text-decoration: none;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     padding: 5px 20px;
-    width: 200px;
-    border: 2px solid black;
+    width: 100px;
     border-radius: 5px;
 }
 
 .ecoponto-menu:hover
 {
-    color:white;
+    color:green;
 }
 
 .link-menu:hover{
-    background-color: gray;
-    color: white;
-    transition: 0.15s ease;
+    border-bottom: 1px solid black;
+    transition: 0.9s ease;
 }
 
 .video {
@@ -49,7 +46,6 @@
 }
 
 .texto1 {
-    background-color: #94908f33;
     margin: 15px 66px;
     padding: 10px;
     height: 32vh;
@@ -66,7 +62,6 @@
 }
 
 .texto2 {
-    background-color: #94908f33;
     margin: 10px;
     padding: 10px;
     height: 69vh;
@@ -75,7 +70,6 @@
 }
 
 .texto3 {
-    background-color: #94908f33;
     margin: 10px;
     padding: 10px;
     height: 69vh;

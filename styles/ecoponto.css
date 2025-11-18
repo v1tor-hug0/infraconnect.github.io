@@ -4,14 +4,13 @@
     justify-content: center;
     gap: 80px;
     padding: 5px;
-    border-bottom: 2px solid black;
+    text-align: center;
     margin: 15px 50px;
-    
+    border-bottom: 1px solid black;
 }
 
 #ativo {
-    background-color: gray;
-    color: white;
+    border-bottom: solid 1px black;
 }
 
 #ativo:hover {
@@ -22,30 +21,33 @@
     border: none;
 }
 
+.logo-pequena{
+    border: none;
+    
+}
+
 .link-menu{
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     padding: 5px 20px;
-    width: 200px;
-    border: 2px solid black;
+    width: 100px;
     border-radius: 5px;
 }
 
 .ecoponto-menu:hover
 {
-    color:white;
+    color:green;
 }
 
 
 
 .link-menu:hover{
-    background-color: gray;
-    color: white;
-    transition: 0.15s ease;
+    border-bottom: 1px solid black;
+    transition: 0.9s ease;
 }
 
 .imagem{
@@ -75,7 +77,6 @@
 }
 
 .texto1 {
-    background-color: #94908f33;
     margin: 10px;
     padding: 10px;
     height: 70vh;
@@ -84,7 +85,6 @@
 }
 
 .texto2{
-    background-color: #94908f33;
     margin: 10px;
     padding: 10px;
     height: 70vh;
@@ -93,7 +93,6 @@
 }
 
 .baixo{
-    background-color: #94908f33;
     margin: 10px 66px;
     padding: 10px;
     height: 30vh;

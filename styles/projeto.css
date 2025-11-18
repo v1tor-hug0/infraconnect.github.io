@@ -14,15 +14,12 @@ body {
     padding: 5px;
     text-align: center;
     margin: 15px 50px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 }
 
 #ativo {
-    background-color: gray;
-    color: white;
+    border-bottom: solid 1px black;
 }
-
-
 
 .logo-pequena{
     border: none;
@@ -34,29 +31,25 @@ body {
     align-items: center;
     text-decoration: none;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     padding: 5px 20px;
-    width: 200px;
-    border: 2px solid black;
+    width: 100px;
     border-radius: 5px;
 }
 
 .ecoponto-menu:hover
 {
-    color:white;
+    color:green;
 }
 
-
-
 .link-menu:hover{
-    background-color: gray;
-    color: white;
-    transition: 0.15s ease;
+    border-bottom: 1px solid black;
+    transition: 0.9s ease;
 }
 
 section.slider{
     margin: 0 auto;
-    width: 90%;
+    width: 70%;
     height: auto;
     padding: 0 !important;
     overflow: hidden;
